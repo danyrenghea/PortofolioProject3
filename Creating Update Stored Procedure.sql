@@ -5,8 +5,6 @@ with a constraint of unicity on emp_id and update_time columns*/
 --Create a transition table named employees_audit
 --that keeps records of old and new salaries updated
 
-DROP TABLE employees_audit;
-
 CREATE TABLE employees_audit (
     audit_id SERIAL PRIMARY KEY,
     emp_id INT,
